@@ -20,7 +20,7 @@ def cursor_position_time(time1, inter):
 # 3
 def screen_size():
     print(pyautogui.size())
-
+#
 
 def move_to(x, y, duration):
     pyautogui.moveTo(x, y, duration)
